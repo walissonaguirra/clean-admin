@@ -1,7 +1,7 @@
 <?php 
 /**
  * Plugin Name:       Clean Admin
- * Plugin URI:        https://github.com/walissonaguirra
+ * Plugin URI:        https://github.com/walissonaguirra/clean-admin.git
  * Description:       Clean Admin.
  * Version:           1.0.0
  * Requires at least: 5.4
