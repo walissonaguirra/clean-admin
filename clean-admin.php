@@ -24,6 +24,8 @@ require_once "{$clean_admin_dir}/inc/users.php";
 add_action( 'plugins_loaded', function() {
 	
 	if (current_user_can('administrator')) return;
+	
+	$clean_admin_dir = plugin_dir_path(__FILE__);
 
 	require_once "{$clean_admin_dir}/inc/plugin/acf.php";
 	require_once "{$clean_admin_dir}/inc/plugin/yoast-seo.php";
