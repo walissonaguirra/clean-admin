@@ -1,0 +1,15 @@
+{
+  "name": "walissonaguirra/clean-admin",
+  "description": "Um simple plugin wordpress para limpa o painel de administra\u0000\u0000o",
+  "keywords": ["wordpress", "plugin"],
+  "authors": [
+    {
+      "name": "walissonaguirra",
+      "email": "walisson.aguirra@gmail.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+  	"php": ">=7.0"
+  }
+}
